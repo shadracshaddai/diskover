@@ -57,7 +57,7 @@ def home(request):
 
 
 
-
+@login_required
 def subscription(request):
     return render(request, 'subscription.html')
 

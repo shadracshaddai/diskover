@@ -52,7 +52,7 @@ MIDDLEWARE = [
 # Add the following line to the end of the MIDDLEWARE list
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://web-production-f495.up.railway.app/*',
+    'https://web-production-83c8.up.railway.app//*',
 ]
 
 ROOT_URLCONF = 'discovery.urls'
