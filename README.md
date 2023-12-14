@@ -1,2 +1,2 @@
-# diskover
+# discoveri
 code source pour école
