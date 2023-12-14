@@ -57,11 +57,11 @@ def home(request):
 
 
 
-@login_required
+
 def subscription(request):
     return render(request, 'subscription.html')
 
-
+@login_required
 def chatbot(request):
     if request.user.is_authenticated:
         chats = Chat.objects.filter(user=request.user)
